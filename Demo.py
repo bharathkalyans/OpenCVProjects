@@ -17,8 +17,8 @@ img2 = cv2.rotate(img, cv2.cv2.ROTATE_90_CLOCKWISE)
 
 img3 = cv2.imwrite('rotated_image.jpeg', img2)
 
-
 cv2.imshow('Image Viewer', img2)
 cv2.waitKey(0)
 # WaitKey Says that you have to wait n sec's to press a key
 cv2.destroyAllWindows()
+# destroys all Open Windows of the Project
